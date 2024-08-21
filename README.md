@@ -53,7 +53,7 @@ Cardiotocograms (CTGs) are a cost-effective and accessible method for assessing 
 
 If you use this dataset in your research, please cite:
 
-Ayres de Campos, D., et al. (2000). SisPorto 2.0: A Program for Automated Analysis of Cardiotocograms. *J Matern Fetal Med*, 5:311-318. [Link](http://example.com)
+Ayres de Campos, D., et al. (2000). SisPorto 2.0: A Program for Automated Analysis of Cardiotocograms. *J Matern Fetal Med*, 5:311-318.
 
 ## License
 
