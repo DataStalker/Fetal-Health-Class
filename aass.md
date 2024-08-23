@@ -13,82 +13,19 @@ knitr::opts_chunk$set(fig.path='Figs/')
 library(tidyverse)   # For data manipulation and visualization
 ```
 
-    ## Warning: package 'tidyverse' was built under R version 4.1.3
-
-    ## Warning: package 'tibble' was built under R version 4.1.3
-
-    ## Warning: package 'tidyr' was built under R version 4.1.3
-
-    ## Warning: package 'readr' was built under R version 4.1.3
-
-    ## Warning: package 'purrr' was built under R version 4.1.3
-
-    ## Warning: package 'dplyr' was built under R version 4.1.3
-
-    ## Warning: package 'forcats' was built under R version 4.1.3
-
-    ## -- Attaching core tidyverse packages ------------------------ tidyverse 2.0.0 --
-    ## v dplyr     1.1.2     v readr     2.1.4
-    ## v forcats   1.0.0     v stringr   1.4.0
-    ## v ggplot2   3.3.5     v tibble    3.2.1
-    ## v lubridate 1.8.0     v tidyr     1.3.0
-    ## v purrr     1.0.1     
-    ## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
-    ## x dplyr::filter() masks stats::filter()
-    ## x dplyr::lag()    masks stats::lag()
-    ## i Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-
 ``` r
 library(tidymodels)  # For modeling
 ```
-
-    ## Registered S3 method overwritten by 'tune':
-    ##   method                   from   
-    ##   required_pkgs.model_spec parsnip
-    ## -- Attaching packages -------------------------------------- tidymodels 0.1.4 --
-    ## v broom        0.7.10     v rsample      0.1.0 
-    ## v dials        0.0.10     v tune         0.1.6 
-    ## v infer        1.0.0      v workflows    0.2.4 
-    ## v modeldata    0.1.1      v workflowsets 0.1.0 
-    ## v parsnip      0.1.7      v yardstick    0.0.8 
-    ## v recipes      1.1.0
-
-    ## Warning: package 'scales' was built under R version 4.1.3
-
-    ## -- Conflicts ----------------------------------------- tidymodels_conflicts() --
-    ## x scales::discard() masks purrr::discard()
-    ## x dplyr::filter()   masks stats::filter()
-    ## x recipes::fixed()  masks stringr::fixed()
-    ## x dplyr::lag()      masks stats::lag()
-    ## x yardstick::spec() masks readr::spec()
-    ## x recipes::step()   masks stats::step()
-    ## * Learn how to get started at https://www.tidymodels.org/start/
-
 ``` r
 library(vip)         # For variable importance
 ```
-
-    ## 
-    ## Attaching package: 'vip'
-    ## 
-    ## The following object is masked from 'package:utils':
-    ## 
-    ##     vi
-
 ``` r
 library(corrplot)    # For correlation matrix visualization
 ```
 
-    ## corrplot 0.92 loaded
-
 ``` r
 library(here)
 ```
-
-    ## Warning: package 'here' was built under R version 4.1.3
-
-    ## here() starts at C:/Users/Esso/Downloads
-
 ``` r
 library(rio)
 library(knitr)
